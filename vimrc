@@ -59,7 +59,7 @@ set clipboard=unnamed
 
 " undofile w/ special location
 set undofile
-set undodir=~/.vim/tmp
+set undodir=~/.vim/undo
 
 " yankring
 let g:yankring_history_dir = '~/.vim'
