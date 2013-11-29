@@ -61,6 +61,9 @@ set clipboard=unnamed
 set undofile
 set undodir=~/.vim/tmp
 
+" yankring
+let g:yankring_history_dir = '~/.vim'
+map <leader>y :YRShow<CR>
 
 inoremap jk <ESC>
 nmap <space> :
