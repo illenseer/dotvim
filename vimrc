@@ -17,8 +17,15 @@ set expandtab
 syntax enable
 set background=dark
 set t_Co=256
-let g:badwolf_termcolors=256
-colorscheme badwolf
+colorscheme jellybeans
+
+" let g:badwolf_termcolors=256
+" colorscheme badwolf
+
+" colorscheme Benokai
+" colorscheme ubaryd
+" colorscheme blackboard
+" colorscheme darkspectrum
 
 set guifont=Source\ Code\ Pro\ for\ Powerline:h12
 
@@ -100,7 +107,6 @@ nnoremap <silent> <Leader>F :call EasyMotion#F(0, 1)<CR>
 " Comment/Uncomment
 map <leader>c \\\
 autocmd FileType gringo set commentstring=%\ %s
-autocmd FileType puppet set commentstring=#\ %s
 autocmd FileType python set commentstring=#\ %s
 
 " get .vimrc
@@ -115,3 +121,5 @@ let g:ctrlp_extensions = ['tag']
 let g:ctrlp_max_files = 10000
 " Optimize file searching
 let g:ctrlp_user_command = { 'types': { 1: ['.git/', 'cd %s && git ls-files'], 2: ['.hg/', 'cd %s && hg manifest'] }, 'fallback': 'find %s -type f | head -' . g:ctrlp_max_files }
+
+let g:ansible_attribute_highlight = 'ab'
