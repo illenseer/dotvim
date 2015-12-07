@@ -94,3 +94,30 @@
 [submodule "bundle/jellybeans.vim"]
 	path = bundle/jellybeans.vim
 	url = git@github.com:nanotech/jellybeans.vim.git
+[submodule "bundle/monokai"]
+	path = bundle/monokai
+	url = git@github.com:lsdr/monokai.git
+[submodule "bundle/vim-monokai"]
+	path = bundle/vim-monokai
+	url = git@github.com:sickill/vim-monokai.git
+[submodule "bundle/vim-buddy"]
+	path = bundle/vim-buddy
+	url = git@github.com:DrSpatula/vim-buddy.git
+[submodule "bundle/vim-materialtheme"]
+	path = bundle/vim-materialtheme
+	url = git@github.com:Wutzara/vim-materialtheme.git
+[submodule "bundle/seti.vim"]
+	path = bundle/seti.vim
+	url = git@github.com:trusktr/seti.vim.git
+[submodule "bundle/vim-phoenix"]
+	path = bundle/vim-phoenix
+	url = git@github.com:widatama/vim-phoenix.git
+[submodule "bundle/beekai"]
+	path = bundle/beekai
+	url = git@github.com:stephanedemotte/beekai.git
+[submodule "bundle/pt_black"]
+	path = bundle/pt_black
+	url = git@github.com:yantze/pt_black.git
+[submodule "bundle/material.vim"]
+	path = bundle/material.vim
+	url = git@github.com:jscappini/material.vim.git

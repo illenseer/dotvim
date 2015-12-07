@@ -15,17 +15,14 @@ set softtabstop=4
 set expandtab
 
 syntax enable
-set background=dark
 set t_Co=256
-colorscheme jellybeans
-
 " let g:badwolf_termcolors=256
 " colorscheme badwolf
 
-" colorscheme Benokai
-" colorscheme ubaryd
-" colorscheme blackboard
-" colorscheme darkspectrum
+colorscheme jellybeans
+" colorscheme materialtheme
+" colorscheme argonaut
+
 
 set guifont=Source\ Code\ Pro\ for\ Powerline:h12
 
@@ -100,9 +97,10 @@ map <C-h> <C-w>h
 map <C-l> <C-w>l
 
 " easymotion
-let g:EasyMotion_do_mapping = 0
-nnoremap <silent> <Leader>f :call EasyMotion#F(0, 0)<CR>
-nnoremap <silent> <Leader>F :call EasyMotion#F(0, 1)<CR>
+" let g:EasyMotion_do_mapping = 0
+map <Leader>e <Plug>(easymotion-prefix)
+" nnoremap <silent> <Leader>f :call EasyMotion#F(0, 0)<CR>
+" nnoremap <silent> <Leader>F :call EasyMotion#F(0, 1)<CR>
 
 " Comment/Uncomment
 map <leader>c \\\
