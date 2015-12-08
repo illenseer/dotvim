@@ -46,9 +46,6 @@
 [submodule "bundle/tabular"]
 	path = bundle/tabular
 	url = https://github.com/godlygeek/tabular.git
-[submodule "bundle/vim-puppet"]
-	path = bundle/vim-puppet
-	url = https://github.com/rodjek/vim-puppet.git
 [submodule "bundle/badwolf"]
 	path = bundle/badwolf
 	url = https://github.com/sjl/badwolf.git
@@ -64,60 +61,12 @@
 [submodule "bundle/ansible-vim"]
 	path = bundle/ansible-vim
 	url = git@github.com:pearofducks/ansible-vim.git
-[submodule "bundle/Benokai"]
-	path = bundle/Benokai
-	url = git@github.com:benjaminwhite/Benokai.git
-[submodule "bundle/vim-frozen"]
-	path = bundle/vim-frozen
-	url = git@github.com:fent/vim-frozen.git
-[submodule "bundle/colorsbox"]
-	path = bundle/colorsbox
-	url = git@github.com:mkarmona/colorsbox.git
-[submodule "bundle/Ubaryd"]
-	path = bundle/Ubaryd
-	url = git@github.com:Donearm/Ubaryd.git
 [submodule "bundle/argonaut.vim"]
 	path = bundle/argonaut.vim
 	url = git@github.com:effkay/argonaut.vim.git
-[submodule "bundle/blackboard.vim"]
-	path = bundle/blackboard.vim
-	url = git@github.com:ratazzi/blackboard.vim.git
-[submodule "bundle/RadicalGoodSpeed.vim"]
-	path = bundle/RadicalGoodSpeed.vim
-	url = git@github.com:svjunic/RadicalGoodSpeed.vim.git
-[submodule "bundle/vim-getafe"]
-	path = bundle/vim-getafe
-	url = git@github.com:larssmit/vim-getafe.git
-[submodule "bundle/darkspectrum"]
-	path = bundle/darkspectrum
-	url = git@github.com:vim-scripts/darkspectrum.git
 [submodule "bundle/jellybeans.vim"]
 	path = bundle/jellybeans.vim
 	url = git@github.com:nanotech/jellybeans.vim.git
-[submodule "bundle/monokai"]
-	path = bundle/monokai
-	url = git@github.com:lsdr/monokai.git
-[submodule "bundle/vim-monokai"]
-	path = bundle/vim-monokai
-	url = git@github.com:sickill/vim-monokai.git
-[submodule "bundle/vim-buddy"]
-	path = bundle/vim-buddy
-	url = git@github.com:DrSpatula/vim-buddy.git
 [submodule "bundle/vim-materialtheme"]
 	path = bundle/vim-materialtheme
 	url = git@github.com:Wutzara/vim-materialtheme.git
-[submodule "bundle/seti.vim"]
-	path = bundle/seti.vim
-	url = git@github.com:trusktr/seti.vim.git
-[submodule "bundle/vim-phoenix"]
-	path = bundle/vim-phoenix
-	url = git@github.com:widatama/vim-phoenix.git
-[submodule "bundle/beekai"]
-	path = bundle/beekai
-	url = git@github.com:stephanedemotte/beekai.git
-[submodule "bundle/pt_black"]
-	path = bundle/pt_black
-	url = git@github.com:yantze/pt_black.git
-[submodule "bundle/material.vim"]
-	path = bundle/material.vim
-	url = git@github.com:jscappini/material.vim.git
