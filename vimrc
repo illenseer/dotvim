@@ -106,6 +106,7 @@ map <Leader>e <Plug>(easymotion-prefix)
 map <leader>c \\\
 autocmd FileType gringo set commentstring=%\ %s
 autocmd FileType python set commentstring=#\ %s
+autocmd FileType ansible_hosts set commentstring=#\ %s
 
 " get .vimrc
 nnoremap <leader>ev <C-w><C-v><C-l>:e $MYVIMRC<CR>
