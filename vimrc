@@ -69,6 +69,7 @@ set undodir=~/.vim/undo
 let g:yankring_history_dir = '~/.vim'
 map <leader>y :YRShow<CR>
 
+inoremap fd <ESC>
 inoremap jk <ESC>
 nmap <space> :
 
