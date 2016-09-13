@@ -112,6 +112,9 @@ autocmd FileType ansible_hosts set commentstring=#\ %s
 " get .vimrc
 nnoremap <leader>ev <C-w><C-v><C-l>:e $MYVIMRC<CR>
 
+" Save like spacemacs
+nnoremap :fs :w<CR>
+
 " CtrlP settings
 let g:ctrlp_map = '<leader>,'
 nnoremap <leader>. :CtrlPTag<CR>
